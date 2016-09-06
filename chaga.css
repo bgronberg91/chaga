@@ -1,0 +1,90 @@
+/*html {
+background: url(forest.jpg) no-repeat center center fixed;
+background-size: cover;
+} */
+
+.space {
+    margin-bottom: 15rem;
+}
+
+
+/*-----------Top Section--------------------------*/
+
+.splash-section {
+    background-image: url("../img/mountain.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*box-shadow: 0 0 12px 0;*/
+}
+
+/*--  - - -----  Nav Elements - ---- */
+
+.list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.list a:link {
+    color: white;
+}
+
+.list a:visited {
+    color: white;
+}
+
+.list li {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 5px;
+    background-color: rgba(69, 50, 33, .7);
+    /*border: 10px solid rgba(255, 0, 0, 0.1);*/
+}
+
+.list a {
+    text-decoration: none;
+}
+
+
+/* hr {
+    margin: 50px;
+    border-color: lightgrey;
+}
+*/
+
+
+/*------------- Story ---------- */
+
+#mission {
+    height: 300px;
+    padding-top: 20px;
+}
+
+#mission p {
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.top {
+    color: white;
+    text-align: left;
+    background-color: grey;
+ }
+}
+
+
+}
+.main {
+    margin: 0 50px;
+}
+
+/* --------------------- Benefits --------------*/
+
+#one{
+  font-size: 1em;
+}
