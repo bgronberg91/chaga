@@ -6,8 +6,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/chaga.css" media="screen">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
     <title>Chaga</title>
 </head>
 
@@ -23,7 +23,7 @@
             </ul>
             <img src="img/chaga.png" height="500px" alt="WMC Logo" />
 
-        </div>>
+        </div>
     </div>
     </div>
 </header>
@@ -34,10 +34,12 @@
 <body>
     <div class="container space" id="content">
         <div class="row">
-            <div class="col-xs-4 col-xs-offset-">
-                <iframe id="About" width="500px" height="315px" src="https://www.youtube.com/embed/3apaJAsRNuY" frameborder="0" allowfullscreen></iframe>
+            <div class="col-lg-6 col-xs-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe id="About" src="https://www.youtube.com/embed/3apaJAsRNuY" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
-            <div class="col-xs-4 col-xs-offset-2 text-center" id="mission">
+            <div class="col-lg-5 col-lg-offset-1 col-xs-12 text-center" id="mission">
                 <h1>this is some info</h1>
                 <p>
                     here is that stuff i was talking about just now.
@@ -47,47 +49,42 @@
     </div>
 
     <!--CAROUSEL -->
-    <div class="space">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
+    <div id="myCarousel" class="carousel slide container space" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="http://placehold.it/1200x315" alt="...">
-                    <div class="carousel-caption">
-                        <h3>Testimonial 1</h3>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="http://placehold.it/1200x315" alt="...">
-                    <div class="carousel-caption">
-                        <h3>Testimonial 2</h3>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="http://placehold.it/1200x315" alt="...">
-                    <div class="carousel-caption">
-                        <h3>Testimonial 3</h3>
-                    </div>
-                </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg" alt="City">
             </div>
 
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
+            <div class="item">
+                <img src="http://www.freedigitalphotos.net/images/img/homepage/87357.jpg" alt="Ducks">
+            </div>
+
+            <div class="item">
+                <img src="http://static1.squarespace.com/static/553a8716e4b0bada3c80ca6b/553a9655e4b03939abece18a/5731fc75f85082142b12b095/1471894315703/mayfourblocknature.jpg" alt="Flower">
+            </div>
         </div>
-        <a href="#top">Back to top</a>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
+
+
+
 
     <div class="main space">
 
@@ -97,7 +94,7 @@
             </div> <br>
             <div class="row">
                 <div id="one">
-                    <h1 class="col-xs-">#1</h1>
+                    <h1 class="col-xs-1">#1</h1>
                     <p class=col-xs-3>
                         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
                         sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -106,37 +103,39 @@
                 <div id="two">
                     <h1 class="col-xs-1">#2</h1>
                     <p class="col-xs-3">
-                        fsadjdasfjif diojfasdoij sdafioja sfoijvkjnass ljkasdflkjsd                         sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-sdafioja s  fsadjdasfjif diojfasdoij sdafioja s  fsadjdasfjif diojfasdoij sdafioja s
+                        fsadjdasfjif diojfasdoij sdafioja sfoijvkjnass ljkasdflkjsd sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt." sdafioja s fsadjdasfjif diojfasdoij sdafioja s fsadjdasfjif diojfasdoij sdafioja
+                        s
                     </p>
                 </div>
-                    <div id="three">
-                      <h1 class="col-xs-1">#3</h1>
-                      <p class="col=xs-3">
-                          safijafsoij asdfoijasdf asdfoij asasdoij
-                      </p>
-                    </div>
+                <div id="three">
+                    <h1 class="col-xs-1">#3</h1>
+                    <p class="col=xs-3">
+                        safijafsoij asdfoijasdf asdfoij asasdoij
+                    </p>
                 </div>
-
-
             </div>
+
 
         </div>
 
     </div>
 
-    <a href="#top">Back to top</a>
-
-    <h1 id="Contact">Contact</h1>
-    <p>
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-        animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda
-        est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-        voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-    </p>
-
-    <a href="#top">Back to top</a>
     </div>
+
+    <a href="#top">Back to top</a>
+<div class="container">
+  <h1 id="Contact">Contact</h1>
+  <p>
+      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+      animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda
+      est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+      voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+  </p>
+
+  <a href="#top">Back to top</a>
+  </div>
+
+</div>
 
 </body>
 
