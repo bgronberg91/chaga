@@ -11,7 +11,7 @@
     <title>Chaga</title>
 </head>
 
-<!-- Splash -->
+<!--************* Splash ***************-->
 <header>
     <div class="splash-section space" id="top">
         <div class="container">
@@ -29,88 +29,111 @@
 </header>
 
 
-<!-- Intro -->
+<!--******************* Intro *********************-->
 
 <body>
-    <div class="container space" id="content">
-        <div class="row">
-            <div class="col-lg-6 col-xs-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe id="About" src="https://www.youtube.com/embed/3apaJAsRNuY" frameborder="0" allowfullscreen></iframe>
+    <div class="container space">
+        <h1 class="buttons text-center" id="About">Our Story</h1>
+        <div class="background" id="content">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/3apaJAsRNuY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-xs-12 text-center" id="mission">
+                    <h1>this is some info</h1>
+                    <p>
+                        here is that stuff i was talking about just now.
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-5 col-lg-offset-1 col-xs-12 text-center" id="mission">
-                <h1>this is some info</h1>
-                <p>
-                    here is that stuff i was talking about just now.
-                </p>
-            </div>
         </div>
     </div>
 
-    <!--CAROUSEL -->
-    <div id="myCarousel" class="carousel slide container space" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+    <!-- ****************  CAROUSEL ************************-->
+    <div class="container">
+        <h1 class="buttons text-center">Testimonials</h1>
+        <div id="myCarousel" class="carousel  slide space" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg" alt="City">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner img_size" role="listbox">
+                <div class="item active">
+                    <img src="img/placeholder.png" alt="City">
+                    <div class="carousel-caption">
+                        <h3>
+                I would recommend....
+              </h3>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/placeholder.png" alt="Ducks">
+                    <div class="carousel-caption">
+                        <h3>
+                This product...
+              </h3>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/placeholder.png" alt="Flower">
+                    <div class="carousel-caption">
+                        <h3>
+                Because...
+              </h3>
+
+                    </div>
+                </div>
             </div>
 
-            <div class="item">
-                <img src="http://www.freedigitalphotos.net/images/img/homepage/87357.jpg" alt="Ducks">
-            </div>
-
-            <div class="item">
-                <img src="http://static1.squarespace.com/static/553a8716e4b0bada3c80ca6b/553a9655e4b03939abece18a/5731fc75f85082142b12b095/1471894315703/mayfourblocknature.jpg" alt="Flower">
-            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 
 
+    <!-- *************** Benefits ***************** -->
 
-
-    <div class="main space">
-
-        <div class="container">
-            <div class="row">
-                <h1 class="col-xs-6" id="Benefits">Benefits</h1>
-            </div> <br>
+    <div class="container space">
+        <h1 class="buttons text-center" id="Benefits">Benefits</h1>
+        <div class="background">
+            <br>
             <div class="row">
                 <div id="one">
-                    <h1 class="col-xs-1">#1</h1>
+                    <h1 class="col-xs-1 icon">#1</h1>
                     <p class=col-xs-3>
                         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
                         sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
                     </p>
                 </div>
                 <div id="two">
-                    <h1 class="col-xs-1">#2</h1>
+                    <h1 class="col-xs-1 icon">#2</h1>
                     <p class="col-xs-3">
-                        fsadjdasfjif diojfasdoij sdafioja sfoijvkjnass ljkasdflkjsd sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt." sdafioja s fsadjdasfjif diojfasdoij sdafioja s fsadjdasfjif diojfasdoij sdafioja
-                        s
+                        fsadjdasfjif diojfasdoij sdafioja sfoijvkjnass ljkasdf lkjsd sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt." sdafioja s fsadjdasfjif diojfasdoij sdafioja s fsadjdasfjif diojfasdoij sdaf
+                        ioja s
                     </p>
                 </div>
                 <div id="three">
-                    <h1 class="col-xs-1">#3</h1>
+                    <h1 class="col-xs-1 icon">#3</h1>
                     <p class="col=xs-3">
-                        safijafsoij asdfoijasdf asdfoij asasdoij
+                        safijafsoij asdfoijasdf asdfoij asas doij
                     </p>
                 </div>
             </div>
@@ -122,21 +145,63 @@
 
     </div>
 
-    <a href="#top">Back to top</a>
-<div class="container">
-  <h1 id="Contact">Contact</h1>
-  <p>
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-      animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda
-      est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-      voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-  </p>
 
-  <a href="#top">Back to top</a>
-  </div>
+    <!-- ********* Products ****** -->
 
-</div>
+    <div class="container space">
+        <h1 class="buttons text-center" id="BuyNow">Products</h1> <br>
+        <div class="background">
+            <div class="row text-center">
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <h2>Product 1</h2>
+                    <img src="img/placeholder.png" alt="" />
+                    <div class="inline">
+                        <h3>Description</h3><br>
+                        <p>
+                            [Product details 1]
+                        </p>
+                        <button>Buy now</button>
 
-</body>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2>Product 2</h2>
+                    <img src="img/placeholder.png" class="" alt="" />
+                    <div class="inline">
+                        <h3>Description</h3><br>
+                        <p>
+                            [Product details 2]
+                        </p>
+                        <button>Buy now</button>
 
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2> Product 3</h2>
+                    <img src="img/placeholder.png" alt="" />
+                    <div class="inline">
+                        <h3>Description</h3><br>
+                        <p>
+                            [Product details 3]
+                        </p>
+                        <button>Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ********* Contact ****** -->
+
+    <div class="container text-center">
+        <h1 id="Contact" class="buttons">Follow Us</h1>
+          <img src="img/facebook.png" alt="" />
+          <img src="img/twitter.png" alt="" />
+          <img src="img/pinterest.png" alt="" />
+
+        </div>
 </html>
